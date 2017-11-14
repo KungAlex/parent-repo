@@ -1,0 +1,3 @@
+[submodule "submodul-exmaple"]
+	path = submodul-exmaple
+	url = https://github.com/KungAlex/submodul-exmaple.git
