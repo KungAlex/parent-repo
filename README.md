@@ -26,5 +26,19 @@ Update submodule form origin remote repo
     $ git submodule update --remote
     $ git status -s
     $ git commit -am "update submodule-example"
+    
+Update submodule from parent-repo
+
+    TODO: go to submodle dic and checkout a branch
+    $ cd submodul-exmaple
+    $ git checkout master
+    
+    TODO: now make some changes and commit them
+    $ touch some-changes.txt
+    $ git add .
+    $ git commit -m "add some changes"
+
+    
+    
 
     
