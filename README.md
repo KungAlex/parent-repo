@@ -4,7 +4,7 @@ to clone with all Submodules use
 
     git clone --recursive <repository>
 
-#### Submoduls workflow 
+#### Submodules workflow 
 
 Add New Submodule to Parent
 
