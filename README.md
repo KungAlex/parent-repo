@@ -22,21 +22,36 @@ Add New Submodule to Parent
 
 Update submodule form origin remote repo
 
-    TODO: make some changes in submodule-repo and commit them origin  
+    TODO : make some changes in submodule-repo and commit them origin and than run
     $ git submodule update --remote
     $ git status -s
     $ git commit -am "update submodule-example"
     
 Update submodule from parent-repo
 
-    TODO: go to submodle dic and checkout a branch
+    TODO: go to submodle dic and checkout a branch (only on first time)
     $ cd submodul-exmaple
     $ git checkout master
     
-    TODO: now make some changes and commit them
+    TODO: now make some changes and add/commit them
     $ touch some-changes.txt
     $ git add .
     $ git commit -m "add some changes"
+    
+    TODO: go back to parent-repo an add/commit them
+    $ cd parent-repo
+    $ git status -s
+    $ git add . 
+    $ git commit -m "changes in submodule-example"
+    
+    $ git push --recurse-submodules=check
+     --> see notice! TODO: cd in every sub-repo and to push or see other option
+     --> make this default by run $ git config push.recurseSubmodules check
+     
+    $ git push --recurse-submodules=on-demand 
+    
+     
+     
 
     
     
