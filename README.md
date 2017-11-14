@@ -50,8 +50,9 @@ Update submodule from parent-repo
      
     $ git push --recurse-submodules=on-demand 
     
-     
-     
+ 
+##### for more information see:
+https://git-scm.com/book/en/v2/Git-Tools-Submodules
 
     
     
