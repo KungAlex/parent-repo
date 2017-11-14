@@ -24,6 +24,7 @@ Update submodule form origin remote repo
 
     TODO: make some changes in submodule-repo and commit them origin  
     $ git submodule update --remote
+    $ git status -s
     $ git commit -am "update submodule-example"
 
     
